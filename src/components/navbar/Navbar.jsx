@@ -20,13 +20,13 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="left">
-                    <Link to="/" className="link">
+                    <Link to="/home" className="link">
                         <span>HOME</span>
                     </Link>
                     <Link to="/series" className="link">
                         <span>SERIES</span>
                     </Link>
-                    <Link to="/movies" className="link">
+                    <Link to="/favorite" className="link">
                         <span>FAVOURITE</span>
                     </Link>
                 </div>

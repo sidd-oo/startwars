@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Routes, Route} from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
+import Favourite from "./pages/home/favorite/Favourite";
 import Home from "./pages/home/Home";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/home" element={<Home />} />
+        <Route path="/favorite" element={<Favourite />} />
         {/* <Route path="about" element={<About />} /> */}
       </Routes>
     </div>
