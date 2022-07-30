@@ -8,7 +8,7 @@ const Favourite = () => {
     return (
         <div className="favourite">
             <Navbar />
-            <div className="posts">
+            <div className="favPosts">
                 {favourites?.map((post, i) => {
                     return (
                     <div className="listItem" key={i}>
