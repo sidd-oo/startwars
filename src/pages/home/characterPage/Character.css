@@ -1,0 +1,13 @@
+.character{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(221, 221, 233);
+}
+
+
+.character > .container {
+    margin-top: 80px;
+    font-size: 50px;
+    color:black;
+}
+

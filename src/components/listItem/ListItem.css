@@ -3,12 +3,12 @@
     margin: 25px 25px 25px 25px;
     width: 200px;
     height: 180px;
-    border: 2px solid beige;
+    border: 2px solid yellow;
     border-radius: 8px;
 }
 
 h1{
     margin: 20px 20px;
     font-size: 25px;
-    color: white;
+    color: yellow;
 }

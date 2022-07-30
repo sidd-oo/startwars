@@ -1,7 +1,8 @@
 .home{
     min-height: 100vh;
     min-width: 100vw;
-    color: white;
-    background-color: rgb(221, 221, 233);
+    color: yellow;
+    /* background-color: rgb(221, 221, 233); */
+    background-color: black;
 }
 

@@ -21,7 +21,7 @@ export const List = () => {
 
       <div className="posts">
         {posts.map((post, i) => {
-          return (<ListItem post={post} key = {i}/>)
+          return (<ListItem post={post} key = {i} index = {i} currentPage = {currentPage}/>)
         })}
       </div>
       <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} />
