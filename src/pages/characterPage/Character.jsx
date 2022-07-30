@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from '../../../components/navbar/Navbar'
+import Navbar from '../../components/navbar/Navbar'
 import "./Character.css"
 
 const Character = () => {
