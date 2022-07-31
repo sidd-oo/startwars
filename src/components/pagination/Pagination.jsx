@@ -7,8 +7,6 @@ const Pagination = ({ currentPage, setCurrentPage }) => {
     setCurrentPage(parseInt(e.target.innerText))
   }
 
-  console.log(currentPage)
-
   return (
     <div className="pagination">
       <a href="#">&laquo;</a>

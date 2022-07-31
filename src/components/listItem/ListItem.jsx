@@ -50,20 +50,20 @@ const ListItem = ({ post, index, currentPage }) => {
             </div>
             <div className="middle">
                 <div className="left">
-                    <h1 className="keyValuePair"> <span className="key">Mass   :   </span>  <span className="spanValues" >{post.mass.toUpperCase()}</span> </h1>
-                    <h1 className="keyValuePair"><span className="key">Height   :   </span>  <span className="spanValues" >{post.height.toUpperCase()}</span> </h1>
-                    <h1 className="keyValuePair"><span className="key">Gender   :   </span>   <span className="spanValues" >{post.gender.toUpperCase()}</span></h1>
-                    <h1 className="keyValuePair"><span className="key">Eye Color   :   </span>  <span className="spanValues" >{post.eye_color.toUpperCase()}</span></h1>
-                    <h1 className="keyValuePair"><span className="key">Hair Color   :   </span>  <span className="spanValues" >{post.hair_color.toUpperCase()}</span> </h1>
-                    <h1 className="keyValuePair"><span className="key">Skin Color   :   </span>   <span className="spanValues" >{post.skin_color.toUpperCase()}</span></h1>
-                    <h1 className="keyValuePair"><span className="key">Year of birth   :   </span>   <span className="spanValues" >{post.birth_year.toUpperCase()}</span></h1>
+                    <h1 className="keyValuePair"> <span className="key">Mass   :   </span>  <span className="spanValues" >{post?.mass.toUpperCase()}</span> </h1>
+                    <h1 className="keyValuePair"><span className="key">Height   :   </span>  <span className="spanValues" >{post?.height.toUpperCase()}</span> </h1>
+                    <h1 className="keyValuePair"><span className="key">Gender   :   </span>   <span className="spanValues" >{post?.gender.toUpperCase()}</span></h1>
+                    <h1 className="keyValuePair"><span className="key">Eye Color   :   </span>  <span className="spanValues" >{post?.eye_color.toUpperCase()}</span></h1>
+                    <h1 className="keyValuePair"><span className="key">Hair Color   :   </span>  <span className="spanValues" >{post?.hair_color.toUpperCase()}</span> </h1>
+                    <h1 className="keyValuePair"><span className="key">Skin Color   :   </span>   <span className="spanValues" >{post?.skin_color.toUpperCase()}</span></h1>
+                    <h1 className="keyValuePair"><span className="key">Year of birth   :   </span>   <span className="spanValues" >{post?.birth_year.toUpperCase()}</span></h1>
                 </div>
                 <div className="right">
                     <ArrowForwardIos className="nextArrowIcon" onClick={() => { showCharacterPage() }} />
                 </div>
             </div>
             <div className="bottom">
-                <h1 className='title'>{post.name.toUpperCase()}</h1>
+                <h1 className='title'>{post?.name.toUpperCase()}</h1>
             </div>
         </div>
     )
