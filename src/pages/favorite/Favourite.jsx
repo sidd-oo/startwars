@@ -1,4 +1,5 @@
 import React from 'react'
+import ListItem from '../../components/listItem/ListItem';
 import Navbar from '../../components/navbar/Navbar'
 import "./Favourite.css"
 
@@ -9,13 +10,10 @@ const Favourite = () => {
         <div className="favourite">
             <Navbar />
             <div className="favPosts">
-                {favourites?.map((post, i) => {
-                    return (
-                    <div className="listItem" key={i}>
-                        <h1>{post.name}</h1>
-                    </div>)
-                })}
-            </div>
+                    {favourites?.map((post, i) => {
+                        return (<ListItem post={post} key={i} />)
+                    })}
+                </div>
         </div>
     )
 }
