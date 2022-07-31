@@ -27,7 +27,6 @@ const HomeWorld = ({ url }) => {
         <div className="homeWorldPost">
             {loading === false ?
                 <>
-                {console.log(homeWorldDetails)}
                     <h1>Name: {homeWorldDetails?.name}</h1>
                     <h1>Rotation Period: {homeWorldDetails?.rotation_period}</h1>
                     <h1>Orbital Period: {homeWorldDetails?.orbital_period}</h1>

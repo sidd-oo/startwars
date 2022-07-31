@@ -1,13 +1,19 @@
-.character{
-    min-height: 100vh;
-    min-width: 100vw;
+.character {
+    height: 100%;
+    width: 100%;
     background-color: rgb(221, 221, 233);
 }
 
-
-.character > .container {
+.card-container {
     margin-top: 80px;
-    font-size: 50px;
-    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.charTitle {
+    color: black;
+    font-size: 60px;
+    padding: 40px 30px;
+}

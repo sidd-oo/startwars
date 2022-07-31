@@ -1,8 +1,12 @@
-.homeWorldPost > h1{
-    font-size: 20px;
-    margin-top: 5px;
+.homeWorldPost{
+    margin: 30px;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(119, 118, 118);
+    color: black;
 }
 
-.homeWorldPost{
-    margin-top: 380px;
+.homeWorldPost > h1{
+    font-size: 25px;
 }

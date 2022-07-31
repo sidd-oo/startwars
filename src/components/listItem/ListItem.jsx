@@ -9,9 +9,9 @@ const ListItem = ({ post, index, currentPage }) => {
     const navigate = useNavigate();
 
     const showCharacterPage = () => {
-        console.log(index, currentPage);
         navigate("/character", { state: { index: index, currentPage: currentPage } });
     }
+    
     const handleAddToFavourite = (post) => {
         let favourites = JSON.parse(localStorage.getItem("favourite"));
         console.log(favourites, "pre filled localStorage");
@@ -29,7 +29,6 @@ const ListItem = ({ post, index, currentPage }) => {
             if (!isPresent) {
                 const newFavourite = [...favourites, post];
                 localStorage.clear();
-                console.log(newFavourite);
                 localStorage.setItem("favourite", JSON.stringify(newFavourite));
             }
         } else {
