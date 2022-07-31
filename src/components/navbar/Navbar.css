@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@900&display=swap');
 .navbar {
   width: 100%;
   color:white;
@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   z-index: 999;
-  background: grey
+  background: rgb(2, 2, 37);
 }
 
 .navbar.scrolled {
@@ -19,6 +19,7 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  padding: 2px 50px 2px 50px;
 }
 
 .link {
@@ -30,16 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-span {
-  margin: 0px 20px;
-  cursor: pointer;
-  font-family: 'Gorditas', cursive;
-  font-size: 20px;
-  font-weight: 400;
-    color:#f5bd1f;
 }
 
 .right {
@@ -79,3 +70,17 @@ span {
   position: absolute;
 }
 
+.navIcon{
+  font-size: 800px;
+  color: yellow;
+  transform:scale(2.0);
+
+}
+
+.navIcon:hover{
+  transform:scale(1.6);
+}
+
+svg:hover{
+  transform:scale(0.8);
+}

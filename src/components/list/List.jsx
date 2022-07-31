@@ -18,7 +18,6 @@ export const List = () => {
 
   return (
     <div className="list">
-
       <div className="posts">
         {posts.map((post, i) => {
           return (<ListItem post={post} key = {i} index = {i} currentPage = {currentPage}/>)
