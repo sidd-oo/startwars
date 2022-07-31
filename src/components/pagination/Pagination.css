@@ -1,19 +1,28 @@
-.pagination{
-    width: 15%;
-    display: flex;
+.pagination {
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white; */
+    display: inline-block;
     margin-bottom: 40px;
-    color: white;
 }
 
-button{
-    height: 50px;
-    width: 50px;
-    border-radius: 1px;
-    border: 2px solid white;
-    background-color: white;
-    color: blue;
-    font-size: 30px;
-    font-weight: bolder;
+.pagination a {
+    color: black;
+    background-color: azure;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: grey;
 }
