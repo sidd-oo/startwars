@@ -24,10 +24,9 @@ const MovieName = ({ movieURL }) => {
 
     return (
         <div className="movieNameDetails">
-            <div className="movie">Movie</div>
             {loading === false &&
                 <>
-                    <h1>Name: {movieDetails?.name}</h1>
+                    <h1> {movieDetails?.title}</h1>
                 </>
             }
         </div>

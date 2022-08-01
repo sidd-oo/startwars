@@ -25,6 +25,7 @@ const HomeWorld = ({ url }) => {
 
     return (
         <div className="homeWorldPost">
+            <h1 className="title" style={{textAlign: 'center', marginBottom:"10px"}}>Details</h1>
             {loading === false ?
                 <>
                     <h1>Name: {homeWorldDetails?.name}</h1>
